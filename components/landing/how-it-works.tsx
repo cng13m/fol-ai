@@ -27,7 +27,7 @@ export function HowItWorks() {
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">Si funksionon</h2>
-          <p className="mt-4 text-lg text-white/90">Katër hapa të thjeshtë për të filluar</p>
+          <p className="mt-4 text-lg text-muted-foreground">Katër hapa të thjeshtë për të filluar</p>
         </div>
 
         <div className="mx-auto max-w-4xl">
@@ -39,7 +39,7 @@ export function HowItWorks() {
                 </div>
                 <div>
                   <h3 className="font-semibold">{item.title}</h3>
-                  <p className="mt-1 text-sm text-white/90">{item.description}</p>
+                  <p className="mt-1 text-sm text-muted-foreground">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -65,4 +65,5 @@ export function HowItWorks() {
     </section>
   )
 }
+
 
